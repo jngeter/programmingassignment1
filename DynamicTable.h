@@ -18,7 +18,7 @@ public:
     }
 
     ~DynamicTable(){
-        delete[] table;
+        delete [] table;
     }
 
     inline int get_n_resize(){return n_resize_called;}
